@@ -1,0 +1,119 @@
+\documentclass{resume}
+\usepackage{lmodern}
+
+\pagenumbering{gobble} 
+
+\begin{document}
+\fontspec{lato}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\header{Chenyang}
+{Eric Liu}
+{\href{https://chy.io}{https://chy.io}}
+{\href{mailto:ericliuche@gmail.com}{ericliuche@gmail.com}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\subsection{Hudson River Trading}- Algorithm Engineer \positiondate{Aug '19 - \hspace{12.5mm}}\\
+\technologies{C++, Python}\\
+\fontsize{11pt}{12pt}\selectfont
+\hspace*{9.5mm}Algorithms and infrastructure for automated trading in financial markets
+
+\subsection{Two Sigma}- Modeling Engineering Intern \positiondate{Jun '18 - Aug '18}\\
+\technologies{Python, Pandas, NumPy}\\
+\fontsize{10.5pt}{12pt}
+\begin{tightemize}
+	\item Extended portfolio simulation tool by tripling maximum length of simulation allowing research of long term signals
+	\item Integrated new dataset by investigating and mitigating underlying data differences and flaws
+\end{tightemize}
+
+\subsection{Robinhood}- Software Engineering Intern \positiondate{Jan '18 - May '18}\\
+\technologies{Go, Python, Django, PostgreSQL, Redis, FIX}\\
+\begin{tightemize}
+	\item Persisted in-memory order queuer with PostgreSQL for market hours agnostic orders and increased scalability
+	\item Built cryptocurrency market data service and implemented check-pointing for options market data
+	\item Built models, APIs, wallet generation, and withdrawal generation for cryptocurrency custody solution
+\end{tightemize}
+
+\subsection{Dropbox}- Software Engineering Intern \positiondate{Jun '17 - Sep '17}\\
+\technologies{Python, Typescript, React, mypy}\\
+\begin{tightemize}
+	\item Implemented permissions logic for feature allowing users of any shared file to see who else is currently viewing
+	\item Revamped sharing modals by building out privacy settings for folders
+\end{tightemize}
+
+\subsection{Snap Inc.}- Software Engineering Intern \positiondate{Mar '17 - Jun '17}\\
+\technologies{Python, Typescript, Flask, React, Redux, AppEngine}\\
+\begin{tightemize}
+	\item Rewrote backend for Snap's content management system and migrated data to new models on AppEngine
+	\item Modernized frontend user interface and on-boarded internal customers to new tool
+\end{tightemize}
+
+\subsection{Google}- Software Engineering Intern \positiondate{Jan '17 - Mar '17}\\
+\technologies{C++, gRPC}\\
+\begin{tightemize}
+	\item Augmented network anomaly detection tool with packet capture and traceroute functionality
+	\item Built command line interface allowing users to view results for any specified request between Google's servers
+\end{tightemize}
+
+\subsection{Apple}- Software Engineering Co-op \positiondate{Jan '16 - Aug '16}\\
+\technologies{C++, Matlab, Scala, OpenCV}\\
+\begin{tightemize}
+	\item Research, implemented, and deployed system to automatically detect UI regressions between Maps releases
+	\item Built computer vision toolkit to extract and compare vector features from Maps screenshots
+\end{tightemize}
+
+\subsection{Textron Systems}- Software Engineering Intern \positiondate{Jun '15 - Aug '15}\\
+\technologies{Matlab}\\
+\begin{tightemize}
+	\item Implemented a convolutional neural network from scratch for image classification and segmentation
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\subsection{Northeastern University} \positiondate{\textit{May 2019}}\\
+\fontsize{10.5pt}{12pt}\selectfont
+\textbf{Master of Science}, Computer Engineering - \textit{Computer Vision and Machine Learning} \hfill 
+\textbf{GPA:} 3.92 \\
+\textbf{Bachelor of Science}, Computer Engineering \hfill 
+\textbf{GPA:} 3.98 \\
+\hspace*{8.5mm}\textbf{Honors:} University Scholars Program (Top 1\% - Full Merit Scholarship) | Huntington 100 | Honors Program \\ 
+\hspace*{8.5mm}\textbf{Activities:} Honors Ambassador | Husky Ambassador | COE Peer Mentor | NU Symphony Orchestra \\ 
+\hspace*{25.28mm} Eta Kappa Nu | Tau Beta Pi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+
+\fontsize{10.5pt}{12pt}\selectfont
+\vspace{-1mm}
+\textbf{Languages}\hspace{1mm} Python, Go, C++, C\hspace{1.5mm} \textbf{Familiar with} MATLAB, SML, Typescript\\
+\textbf{Technologies}\hspace{1mm} Flask, Django, Pandas, NumPy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section
+[\href{http://github.com/ericliuche}{\raisebox{.4mm}{[github.com/ericliuche]\hspace{3mm}}}]
+{Projects}
+
+\renewcommand{\arraystretch}{0.55}
+\vspace{-3.25mm}
+\begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
+	\subsection{Rubik's Cube Robot}                       & \subsection{Northeastern Scheduler}               \\
+	\technologies{Python, C, Arduino, OpenCV, Solidworks} & \technologies{Python, Flask, PostgreSQL, Swagger} \\
+	\fontsize{10.5pt}{12pt}\selectfont
+	Developed 4-arm control system with custom 3D printed hardware to solve Rubik's cube in \textasciitilde30 seconds
+	                                                      &                                                   
+	\fontsize{10.5pt}{12pt}\selectfont
+	Scraped class schedules to provide API for filtering and ranking course information
+\end{tabularx}
+\end{document}
